@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: white;
+}
+.main-nav ul li{
+	list-style: none;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.main-nav ul li a{
+	display: block;
+	padding: 20px 0;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    transition: 0.2s;
+}
+.main-nav ul li a:hover{
+	color: #1abb9c;
+}
+.single-slider{
+	background: url(../images/slider.jpg);
+	background-size: cover;
+	padding: 195px 0
+}
+.single-slider h3 {
+    color: #f3f3f3;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.single-slider p {
+    color: #a8a8a8;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.btn {
+    background-color: #3f8dbf;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 0.15rem;
+    color: #fff;
+    border-bottom: 2px solid #3678a3
+}
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    z-index: 2;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.slider:hover .slick-arrow{
+    opacity: 1;
+    visibility: visible;
+}
+.slider .slick-next.slick-arrow {
+    left: auto;
+    right: 1%;
+}
+/*Features */
+.features{
+	padding: 60px 0;
+	border-bottom: 2px solid #dcdcdc;
+}
+.feature-box h3{
+	font-size: 18px;
+	color: #4e4e4e;
+}
+.feature-box p {
+    color: #616161;
+    font-size: 14px;
+    line-height: 24px;
+}
+.feature-box img{
+	margin-bottom: 30px
+}
+/*Work */
+.work{
+	padding: 60px 0;
+}
+.work h3{
+	font-size: 18px;
+	color: #4e4e4e;
+	margin-bottom: 20px
+}
+.work-box h3{
+	margin-bottom: 5px
+}
+.work-box span{
+	color: #a8a8a8;
+	font-size: 13px;
+	margin-bottom:20px;
+	display: block;
+}
+.work-box img{
+	margin-bottom: 25px;
+}
+.work p{
+	color: #616161;
+    font-size: 14px;
+    line-height: 24px;
+}
+.work .col-md-4{
+	padding-right: 0 !important;
+}
+/*Testimonail */
+.testimonial {
+	padding: 50px 0;
+	background: #efefef;
+}
+.testi img {
+    margin-bottom: 35px;
+}
+.testimonail p{
+	font-size: 20px;
+	color: #a1a1a1;
+	margin-bottom: 10px;
+}
+.slick-slide img {
+    margin: auto;
+}
+footer {
+	background:  #1e1e1e;
+	padding: 50px 0;
+}
+footer p{
+	color: #cacaca;
+	font-size: 13px;
+}
+.footer-part h3{
+	font-size: 18px;
+	line-height: 22px;
+	color: #6c6c6c;
+	margin-bottom: 15px;
+}
+.footer-part i{
+	color: #a1a1a1;
+	margin-right: 10px;
+}
+td {
+    vertical-align: baseline;
+}
+.footer-left table p{
+	margin-bottom: 0;
+}
+hr{
+	margin: 45px 0;
+	border-top:1px solid #cacaca;
+}
